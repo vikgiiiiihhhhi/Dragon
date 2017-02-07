@@ -1,60 +1,32 @@
-اهــــلا بك عــزيــزي فــي ســورس 🐉Đℜ₳₲ⓞИ _ ც๑τ
-
-
-
-
- افــتــح ترمنال واخلي هــذا الامر👇🏿
-
-
-
-
-
 sudo apt-get update
-🔸🔹🔸🔸🔹🔸🔹🔸
-وراها اكتب هل امر 
 
+and 
 
-redis-server
+redis-server 
+➖🔷➖🔺➖🔶🔻➖🔷➖
 
-
-🔸🔹🔸🔹🔸🔹🔸🔹
-عوفه  مفتوح وافتح ترمنال ثاني واكتب👇🏿
-
-
-
+وراها افتح ترمنال جديد واكتب ❗️↩️
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
+➖🔷➖🔺➖🔶🔻➖🔷➖
+يطلع [Y/n] اكتب Y ولازم كابتل  🙇🏻🍷
 
-
-🔸🔹🔸🔹🔸🔹🔸🔹🔸🔹
-وراها انتر وخلي هذا 👇🏿
-
-
-
-git clone https://github.com/Aaa1r/DRAGON.git
-🔸🔹🔸🔹🔸🔹🔸🔹🔸
-
-
-وراها انتر وخلي هذا 👇🏿
-🔸🔹🔸🔹🔸🔹
-
-cd DRAGON
-🔸🔹🔸🔹🔸🔹
-
-وراها انتر وخلي هذا 👇🏿
-🔸🔹🔸🔹🔸🔹
-
+وراها هذا الامر 📋🕵
+git clone https://github.com/Ali-Dragon/Dragon.git
+➖🔷➖🔺➖🔶🔻➖🔷➖
+وبعدين هذا 🕵✋🏻
+cd Dragon
+➖🔷➖🔺➖🔶🔻➖🔷➖
+وراها هذا 🙇🏻🍷
 chmod +x launch.sh
-🔸🔹🔸🔹🔸🔹
-
-وراها انتر وخلي هذا 👇🏿
-🔸🔹🔸🔹🔸🔹🔸🔹
-
+➖🔷➖🔺➖🔶🔻➖🔷➖
+وبعدين هذا الامر 🙊🍷
 ./launch.sh install
-🔸🔹🔸🔹🔸🔹🔸🔹
-
-وراها انتر وخلي هذا 👇🏿
-🔸🔹🔸🔹🔸🔹🔸🔹
-
-
+➖🔷➖🔺➖🔶🔻➖🔷➖
+واخير شيء  ⛳️🏌
 ./launch.sh
-بعدين يطلب رقم خلي رقم البوت وخلي الكود ومبروك عليك
+
+#ملاحظة انتضر لحد ميكمل ويطلب رقم تلفون واخرج منه 
+وافتح ترمنال ثاني واذا  يستلم الامر بس ميطبقه اكتب هذا 
+sudo redis-server
+➖🔷➖🔺➖🔶🔻➖🔷➖
+
