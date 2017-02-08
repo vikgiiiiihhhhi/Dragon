@@ -12,7 +12,7 @@
   
   function dragon(msg, matches)
   local reply_id = msg['id']
-    local S = 'https://telegram.me/Dev_TLN'  reply_msg(reply_id, S, ok_cb, false)
+    local S = ' ✋🏻🤖   آلــســورـس    Dev_Dragon  \n\n  🏌ألأصــدأر 👲🏻 V1  \n\n⁉️🤖   مــوقــع ألــســورـس   \n \n https://github.com/Ali-Dragon/Dragon \n\n⁉️🕵   مــصــور ألــســورـس  : @Aaa1R \n\n👾   بــوتـ تــوأصــله   :  @Like13_bot \n \n🎸🤖  قــنــاة ألــســورـس  :  @Ch_Dev '  reply_msg(reply_id, S, ok_cb, false)
   end
   
   return {
