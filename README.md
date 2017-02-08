@@ -97,11 +97,11 @@ Open ./data/config.lua and add your ID to the "sudo_users" section in the follow
     YourID
   }
 ```
-😘 مـبروَك أصبَحتـَ مـطورَ بوـتكَ لتوأصل معي 
+😘  مــبــروكـ :-*  حــبــيــبــي صــرت  مطــور  للتواصل معي 
 
-#Dev : [@ii02ii](https://telegram.me/ii02ii)
-#Dev_BOT :  [@ii02ii_bot](https://telegram.me/ii02ii_bot)
-#Dev_Channel :  [@Ch_Dev](https://telegram.me/Ch_Dev)
+#Dev : [🔱ᗩᒪI ᗪᖇᗩGOᑎ❦](https://telegram.me/Aaa1R)
+#Dev_BOT :  [بوت التواصل](https://telegram.me/like13_bot)
+#Dev_Channel :  [قناة المطورين ](https://telegram.me/Ch_Dev)
 
 عندكَ فكره تطوير السورس او البوت تفظل هنأَ☝🏿️
 You have an idea to develop Alsoors or bot prefer ☝🏿️✋🏿
