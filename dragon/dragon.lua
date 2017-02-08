@@ -264,6 +264,8 @@ function create_config( )
 "voice",
 "writer1",
 "writer_arbk2",
+"lock_link",
+
 
     },
     sudo_users = {283221766},--Sudo users
