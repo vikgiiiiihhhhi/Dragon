@@ -1,10 +1,10 @@
 --[[ 
 ▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
 ▀▄ ▄▀                                      ▀▄ ▄▀ 
-▀▄ ▄▀    BY Memo                           ▀▄ ▄▀ 
-▀▄ ▄▀     BY Memo       (@ii02iI)          ▀▄ ▄▀ 
+▀▄ ▄▀    BY Ali_Dragon                     ▀▄ ▄▀ 
+▀▄ ▄▀    BY Ali_Dragon      (@Aaa1R)       ▀▄ ▄▀ 
 ▀▄ ▄▀ Making the file by Memo              ▀▄ ▄▀   
-▀▄ ▄▀         Add bots  : اضافه البوت         ▀▄ ▄▀ 
+▀▄ ▄▀         Add bots  : اضافه البوت     ▀▄ ▄▀ 
 ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
 --]]
 do 
@@ -28,7 +28,7 @@ do
     join = import_chat_link(hash, ok_cb, false) 
   end 
 
-  function Memo(msg, matches) 
+  function Ali_Dragon(msg, matches) 
     if is_sudo(msg) then 
       if msg.reply_id then 
         msgr = get_message(msg.reply_id, action_by_reply, {msg=msg}) 
@@ -51,8 +51,8 @@ do
       '^ضيف البوت$',
       '^ضيف البوت (.*)$'
     }, 
-    run = Memo, 
+    run = Ali_Dragon, 
   } 
 
 end 
--- by Memo (@ii02ii) and sajad (@ss02ss) 
+-- by Ali_Dragon (@Aaa1R)
