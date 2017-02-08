@@ -13,69 +13,68 @@
 ```sh
 
 # Let's install the bot.
-آفہٰتہٰح تہٰرمہٰنہٰآلہٰ وخہٰلہٰيے 👇🏻 Open Terminal and vinegary
+افــتــح تــرمــنــال وخــلــي 🐉 👇🏻 Open Terminal and vinegary
 
 sudo apt-get update 
 
-ورآهہٰآ خہٰلہٰيے 👇🏻 And vinegary
+وراهــا خــلــي 🐉👇🏻 And vinegary
 
 redis-server
 
-عہٰوفہٰ آلہٰتہٰرمہٰنہٰآلہٰ مہٰفہٰتہٰوح ✋🏻 وآفہٰتہٰح ثہٰآنہٰيے   وخہٰليے 👇🏻 Leave it open Terminal And Open Terminal and second vinegary
+عــوف الــرمــنــال مــفــتــوح ✋🏻وافــتــح ترمنال ثـانـي وخــلــي  👇🏻 Leave it open Terminal And Open Terminal and second vinegary
 
 ************************************************************
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
 
-يطلع [Y/n] اكتب Y ولازم كابتل  🙇🏻🍷
+يــطــلعــلـك  [Y/n]  اكــتـب Y ولازم كــابتــل ✅🐉
 ➖🔷➖🔺➖🔶🔻➖🔷➖
-ورآهہٰآ خہٰلہٰيے 👇🏻 And vinegary
+وراهــا خــلــي 🐉👇🏻 And vinegary
 ➖🔷➖🔺➖🔶🔻➖🔷➖
-git clone https://github.com/ii02ii/DevSaqt.git
+git clone https://github.com/Ali-Dragon/Dragon.git
 ➖🔷➖🔺➖🔶🔻➖🔷➖
-ورآهہٰآ خہٰلہٰيے 👇🏻 And vinegary
+وراهــا خــلــي 🐉👇🏻 And vinegary
 ➖🔷➖🔺➖🔶🔻➖🔷➖
-cd DevSaqt
+cd Dragon
 ➖🔷➖🔺➖🔶🔻➖🔷➖
-ورآهہٰآ خہٰلہٰيے 👇🏻 And vinegary
+وراهــا خــلــي 🐉👇🏻 And vinegary
 ➖🔷➖🔺➖🔶🔻➖🔷➖
 chmod +x launch.sh
 ➖🔷➖🔺➖🔶🔻➖🔷➖
-ورآهہٰآ خہٰلہٰيے 👇🏻 And vinegary
+وراهــا خــلــي 🐉👇🏻 And vinegary
 ➖🔷➖🔺➖🔶🔻➖🔷➖
 ./launch.sh install
 ➖🔷➖🔺➖🔶🔻➖🔷➖
-ورآهہٰآ خہٰلہٰيے 👇🏻 And vinegary
+وراهــا خــلــي 🐉👇🏻 And vinegary
 ➖🔷➖🔺➖🔶🔻➖🔷➖
 ./launch.sh 
 ➖🔷➖🔺➖🔶🔻➖🔷➖
 يطلب رقم خلي رقم البوت ✋🏿😘
 مبروك عليك افضل بوت عل تلي 😍
 
-# Enter a phone number & confirmation code.
+#  يطلب رقم  ويجيله كود اكتبه اهنا وتم تفعيل البوت .
 Congratulations, you better bot
 ```
-### One command
+### بترمنال واحد
 To install everything in one command (useful for VPS deployment) on Debian-based distros, use:
 
-لہٰتہٰنہٰصہٰيہٰب آلہٰبہٰوتہٰ فيے كہٰود وآحہٰد 👍🤖👇🏻  To install bot one code
+لــتــنـصيب الــســورـس بتـرمــنـال واحــد  👍🐉👇🏻  To install bot one code
 
-آفہٰتہٰح تہٰرمہٰنہٰآلہٰ وخہٰلہٰيے 👇🏻 Open Terminal and vinegary
+افــتــح تــرمــنــال وخــلــي 🐉 👇🏻 Open Terminal and vinegary
 
 *******************
 sudo apt-get update 
 *******************
 
-ورآهہٰآ خہٰلہٰيے 👇🏻 And vinegary
+وراهــا خــلــي 🐉👇🏻 And vinegary
 
 *******************
 redis-server
 *******************
 
-عہٰوفہٰ آلہٰتہٰرمہٰنہٰآلہٰ مہٰفہٰتہٰوح ✋🏻 وآفہٰتہٰح ثہٰآنہٰيے   وخہٰليے 👇🏻 Leave it open Terminal And Open Terminal and second vinegary
-
+عــوف الــرمــنــال مــفــتــوح ✋🏻وافــتــح ترمنال ثـانـي وخــلــي  👇🏻 Leave it open Terminal And Open Terminal and second vinegary
 ```sh
 
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/ii02ii/DevSaqt.git && cd DevSaqt && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/Ali-Dragon/Dragon.git && cd Dragon && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 
 * * *
