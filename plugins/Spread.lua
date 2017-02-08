@@ -3,12 +3,12 @@
 ▀▄ ▄▀                                      ▀▄ ▄▀ 
 ▀▄ ▄▀    BY ali dragon                     ▀▄ ▄▀ 
 ▀▄ ▄▀     BY ali dragon       (@Aaa1R)     ▀▄ ▄▀ 
-▀▄ ▄▀     ChannelDev       (@love0o_o0)    ▀▄ ▄▀ 
+▀▄ ▄▀     ChannelDev       (@Ch_Dev)       ▀▄ ▄▀ 
 ▀▄ ▄▀ Making the file by ali dragon        ▀▄ ▄▀   
-▀▄ ▄▀   Broadcasting  :   اذاعه              ▀▄ ▄▀ 
+▀▄ ▄▀   Broadcasting  :   اذاعه            ▀▄ ▄▀ 
 ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
 --]]
-local function Memo(msg, matches)
+local function Ali_Dragon(msg, matches)
 	if matches[1] == 'نشر' and is_admin1(msg) then
 		local response = matches[3]
 		--send_large_msg("chat#id"..matches[2], response)
@@ -34,6 +34,6 @@ return {
     "^(اذاعه) +(.+)$",
     "^(نشر) (%d+) (.*)$"
   },
-  run = Memo
+  run = Ali_Dragon,
 }
--- By Dev Memo (@ii02ii)
+-- By Dev Ali_Dragon (@Aaa1R)
