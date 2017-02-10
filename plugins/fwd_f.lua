@@ -8,7 +8,7 @@ local function pre_process(msg)
       delete_msg(msg.id, ok_cb, false) 
       delete_msg(msg.id, ok_cb, false) 
       delete_msg(msg.id, ok_cb, false) 
-      send_large_msg(get_receiver(msg), 'تــــــحذير يا خــــــرآآآآآ🐸👊🏿  بمــــنــوع اعادهـــہ تــــوجيـهــــۂ هــنـا لتكــرر ســـوف تجــبرنــي علـــى طـــردک🙂👊🏿\n #الــــعـــــضــــو : @'..msg.from.username) 
+      send_large_msg(get_receiver(msg), '#ركــز_جــرجــف🌝✋مـمنوع ســوي تـوجيه اهـنـا🍹🌚لابــل نـعـال ☹️🖕🏿\n #الـــعــــضـــو : @'..msg.from.username)
       redis:del(hash) 
    else 
       delete_msg(msg.id, ok_cb, false) 
