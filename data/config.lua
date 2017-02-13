@@ -1,5 +1,5 @@
 do local _ = {
-  about_text = "🚏- اهلا بك عزيزي WeLcOmE\n  سورس ديف ساقط  ( DevSaqt )\n\n〰 ➗ 〰 ✖️ 〰 ➕ 〰\nDeveloper ⛳️🏒  :\n🔸 - @ii02ii \nChannel sors 🏈  :\n🔹 - @Ch_Dev \n〰 ➗ 〰 ✖️ 〰 ➕ 〰\n\n🛰 - رابط السورس :\nhttps://github.com/ii02ii/DevSaqt.git : link in githup",
+  about_text = "🚏- اهلا بك عزيزي WeLcOmE\n سورس دراغون   ( Dragon )\n\n〰 ➗ 〰 ✖️ 〰 ➕ 〰\nDeveloper ⛳️🏒  :\n🔸 - @Aaa1R\nChannel sors 🏈  :\n🔹 - @Ch_Dev \n〰 ➗ 〰 ✖️ 〰 ➕ 〰\n\n🛰 - رابط السورس :\nhttps://github.com/Ali-Dragon/Dragon.git : link in githup",
   enabled_plugins = {
     "@Aaa1R",
     "Himby",
@@ -56,16 +56,14 @@ do local _ = {
     "writer_arbk2",
     "lock_edit",
   },
-  help_text = "[[ْ#DEV @ii02ii]],",
-  help_text_realm = "[[ْ#DEV @ss02ss]],",
-  help_text_super = "[[ْ#DEV @mm01mm]]",
+  help_text = "[[ْ#DEV @Aaa1R]],",
+  help_text_realm = "[[ْ#BOT_DEV @LIKE13_BOT]],",
+  help_text_super = "[[ْ#DEV @Ch_Dev]]",
   moderation = {
     data = "data/moderation.json"
   },
   sudo_users = {
-    162961370,
-    260702932,
-    290544647
+    283221766,
   }
 }
 return _
