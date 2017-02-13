@@ -54,7 +54,6 @@ do local _ = {
     "voice",
     "writer1",
     "writer_arbk2",
-    "lock_edit",
   },
   help_text = "[[ْ#DEV @Aaa1R]],",
   help_text_realm = "[[ْ#BOT_DEV @LIKE13_BOT]],",
