@@ -33,6 +33,7 @@ do local _ = {
     "kickme",
     "leave_ban",
     "lock_bot",
+    "lock_link",
     "me",
     "msg_checks",
     "nameuser",
