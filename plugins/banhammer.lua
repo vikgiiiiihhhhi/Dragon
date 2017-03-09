@@ -8,7 +8,7 @@
 ▀▄ ▄▀  Banhammer :الحجب او الحظر والطرد من المجموعه ▀▄ ▄▀ 
 ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
 --]]
-local function pre_process(msg)
+local function Ch_Dev(msg)
   local data = load_data(_config.moderation.data)
   -- SERVICE MESSAGE
   if msg.action and msg.action.type then
@@ -103,7 +103,7 @@ local function kick_ban_res(extra, success, result)
 		receiver = 'channel#id'..chat_id
 	  end
 	  if success == 0 then
-		return send_large_msg(receiver, "لآزمہٰ مہٰعہٰرفہٰ لہٰو بہٰآلہٰرد حہٰبہٰي 💋😻")
+		return send_large_msg(receiver, "يہۧحہۧتآج مہۧعہۧرفہ آو بہۧآلہۧرد حہۧبيے 💋😻")
 	  end
       local member_id = result.peer_id
       local user_id = member_id
@@ -112,31 +112,31 @@ local function kick_ban_res(extra, success, result)
       local get_cmd = extra.get_cmd
        if get_cmd == "دي" then
          if member_id == from_id then
-            send_large_msg(receiver, "لآ تہٰستہٰطہٰيہٰع🚫❌  طہٰرد نہٰفہٰسہٰك 😹🚷")
+            send_large_msg(receiver, "شہۧنہۧو بہۧآلہۧع تہۧريہۧد تہۧطہۧرد نہۧفہۧسہۧك 🌝😹")
 			return
          end
          if is_momod2(member_id, chat_id) and not is_admin2(sender) then
-            send_large_msg(receiver, "لآ تہٰستہٰطہٰيہٰع طہٰرد ❌ آلآدمہٰنہٰيہٰةة آو آلہٰمہٰدرآء 🙇🏻🍷")
+            send_large_msg(receiver, "مہۧيہۧصہۧيہۧر ؟ تہۧطہۧرد آلآدمہۧنہۧية آو آلہۧمہۧدراء 🐸🍷")
 			return
          end
 		 kick_user(member_id, chat_id)
       elseif get_cmd == 'حظر' then
         if is_momod2(member_id, chat_id) and not is_admin2(sender) then
-			send_large_msg(receiver, "لآ تہٰستہٰطہٰيہٰع حہٰظہٰر❌⁉️  آلآدمہٰنہٰيہٰةة آو آلہٰمہٰدرآء 🤖")
+			send_large_msg(receiver, "مہۧيہۧصہۧيہۧر ؟ تہۧطہۧرد آلآدمہۧنہۧية آو آلہۧمہۧدراء 🐸🍷")
 			return
         end
-        send_large_msg(receiver, 'آلہٰعہٰضہٰو  ['..member_id..']  @'..member..'    تہٰم ✅ حہٰظہٰره')
+        send_large_msg(receiver, 'آلہۧعہضہۧو  ['..member_id..']  @'..member..'    تہۧم ✅ حہۧظہۧره')
 		ban_user(member_id, chat_id)
       elseif get_cmd == 'الغاء الحظر' then
-        send_large_msg(receiver, 'آلہٰعہٰضہٰو 🙇🏻  ['..member_id..'] @'..member..'  رآح مہٰنہٰة آلہٰحہٰظہٰر 😻💋')
+        send_large_msg(receiver, 'آلہۧعہضہۧو 🙇🏻  ['..member_id..'] @'..member..'  لہۧغہۧيہۧت آلہۧحہۧظہۧر مہۧنہۧة  😻💋')
         local hash =  'banned:'..chat_id
         redis:srem(hash, member_id)
-        	return 'آلہٰعہٰضہٰو '..user_id..' رآح آلہٰحظہٰر مہٰنه تہٰكہٰدر تہٰرجہٰعہٰه 💋🤖'
+        	return 'آلہۧعہضہۧو '..user_id..' لہۧغہۧيہۧت آلہۧحہۧظہۧر مہۧنہۧة  تہۧكہۧدر تہۧرجہۧعہۧه 💋🤖'
       elseif get_cmd == 'حظر عام' then
-        send_large_msg(receiver, 'آلہٰعہٰضہٰو  ['..member_id..'] @'..member..'    تہٰم ✅ حہٰظہٰره عہٰآم 👾📝')
+        send_large_msg(receiver, 'آلہۧعہضہۧو  ['..member_id..'] @'..member..'    تہۧم ✅ حہۧظہۧره عہۧآم 👾📝')
 		banall_user(member_id)
       elseif get_cmd == 'الغاء العام' then
-        send_large_msg(receiver, 'آلہٰعہٰضہٰو ['..member_id..'] @'..member..'  رآح آلہٰحہٰظہٰر آلہٰعہٰآم مہٰطہٰوريے 🤖🍷')
+        send_large_msg(receiver, 'آلہۧعہۧضہۧو ['..member_id..'] @'..member..'  رفہۧعہۧتہ آلہۧحہظہۧر آلہۧعہۧآم مہٰنة مہٰطہٰوريے 🤖🍷')
 	    unbanall_user(member_id)
     end
 end
@@ -145,7 +145,7 @@ local function Memo(msg, matches)
 local support_id = msg.from.id
  if matches[1]:lower() == 'ايدي' and msg.to.type == "chat" or msg.to.type == "user" then
     if msg.to.type == "user" then
-      return "🍷🤖 آيہٰديے آلہٰبہٰوتہٰ : "..msg.to.id.. "\n\n🆔🙇🏻 آيہٰديے حہٰسہٰآبہٰك : "..msg.from.id.. "\n\n🕵 #آلہٰمہٰطہٰور @ii02ii"
+      return "🍷🤖 آيہۧديے آلہۧبہۧوتہٰ : "..msg.to.id.. "\n\n🆔🙇🏻 آيہٰديے حہۧسہۧآبہۧكہ : "..msg.from.id.. "\n\n🕵 #آلہۧمہۧطہۧور @ii02ii \n\n @Ch_Dev"
     end
     if type(msg.reply_id) ~= "nil" then
       local print_name = user_print_name(msg.from):gsub("‮", "")
@@ -155,10 +155,10 @@ local support_id = msg.from.id
     elseif matches[1]:lower() == 'ايدي' then
       local name = user_print_name(msg.from)
       savelog(msg.to.id, name.." ["..msg.from.id.."] used /id ")
-      return "🆔 آيہٰديے آلہٰمہٰجہٰمہٰوعہٰة" ..string.gsub(msg.to.print_name, "_", " ").. ":\n\n"..msg.to.id
+      return "🆔 آيہۧديے آلہۧمہۧجہۧمہۧوعہۧة" ..string.gsub(msg.to.print_name, "_", " ").. ":\n\n"..msg.to.id
     end
   end
-  if matches[1]:lower() == 'مغادره' and msg.to.type == "chat" then-- /kickme
+  if matches[1]:lower() == 'مغادرة' and msg.to.type == "chat" then-- /kickme
   local receiver = get_receiver(msg)
     if msg.to.type == 'chat' then
       local print_name = user_print_name(msg.from):gsub("‮", "")
@@ -193,17 +193,17 @@ local support_id = msg.from.id
          	return
         end
         if not is_admin1(msg) and is_momod2(matches[2], msg.to.id) then
-          	return "لآ تہٰستہٰطہٰيہٰع حہٰظہٰر❌⁉️  آلآدمہٰنہٰيہٰةة آو آلہٰمہٰدرآء 🤖❗️"
+          	return "مہۧو حہۧقكہ تہۧحہۧظہۧر ادمہۧن او الہۧمہۧديہۧر  🐸🍷"
         end
         if tonumber(matches[2]) == tonumber(msg.from.id) then
-          	return "لآ تہٰستہٰطہٰيہٰع🚫❌  طہٰرد نہٰفہٰسہٰك 😹🚷"
+          	return "يآ آخہۧي مہۧيہۧصہۧير تہۧطہۧرد نہۧفہۧسہۧكہ 😐🐸"
         end
         local print_name = user_print_name(msg.from):gsub("‮", "")
 	    local name = print_name:gsub("_", "")
 		local receiver = get_receiver(msg)
         savelog(msg.to.id, name.." ["..msg.from.id.."] baned user ".. matches[2])
         ban_user(matches[2], msg.to.id)
-		send_large_msg(receiver, 'آلہٰعہٰضہٰو  ['..matches[2]..']  تہٰم حہٰظہٰره ودفہٰره مہٰن آلہٰكہٰروبہٰ 🤖💔')
+		send_large_msg(receiver, 'آلہۧعہۧضہۧو  ['..matches[2]..']  تہۧم حہۧظہۧره ودفہۧره مہۧن آلہۧكہۧروبہٰ 🤖💔')
       else
 		local cbres_extra = {
 		chat_id = msg.to.id,
@@ -231,7 +231,7 @@ local support_id = msg.from.id
         	local print_name = user_print_name(msg.from):gsub("‮", "")
 			local name = print_name:gsub("_", "")
         	savelog(msg.to.id, name.." ["..msg.from.id.."] unbaned user ".. matches[2])
-        	return 'آلہٰعہٰضہٰو '..user_id..' رآح آلہٰحظہٰر مہٰنه تہٰكہٰدر تہٰرجہٰعہٰه 💋🤖'
+        	return 'آلہۧعہۧضہۧو '..user_id..' رآح آلہۧحہظہۧر مہۧنه تہۧكہۧدر تہۧرجہۧعہۧةة 💋🤖'
       else
 		local cbres_extra = {
 			chat_id = msg.to.id,
@@ -256,11 +256,11 @@ if matches[1]:lower() == 'دي' then
 			return
 		end
 		if not is_admin1(msg) and is_momod2(matches[2], msg.to.id) then
-			return "لآ تہٰستہٰطہٰيہٰع طہٰرد ❌ آلآدمہٰنہٰيہٰةة آو آلہٰمہٰدرآء 🙇🏻🍷"
-		end
+          	                                                    return "مہۧو حہۧقكہ تہۧحہۧظہۧر ادمہۧن او الہۧمہۧديہۧر  🐸🍷"
+ 		end
 		if tonumber(matches[2]) == tonumber(msg.from.id) then
-			return "لآ تہٰستہٰطہٰيہٰع🚫❌  طہٰرد نہٰفہٰسہٰك 😹🚷"
-		end
+          	                                                   return "يآ آخہۧي مہۧيہۧصہۧير تہۧطہۧرد نہۧفہۧسہۧكہ 😐🐸"
+ 		end
     local user_id = matches[2]
     local chat_id = msg.to.id
     print("sexy")
@@ -297,7 +297,7 @@ end
          	return false
         end
         	banall_user(targetuser)
-       		return 'آلہٰعہٰضہٰو ['..user_id..' ] تہٰم ✅ حہٰظہٰره عہٰآم 🤖🍷'
+       		return 'آلہۧعہۧضہۧو ['..user_id..' ] تہۧم ✅ حہۧظہۧره عہۧآم 🤖🍷'
      else
 	local cbres_extra = {
 		chat_id = msg.to.id,
@@ -317,7 +317,7 @@ end
           	return false
         end
        		unbanall_user(user_id)
-        	return 'آلہٰعہٰضہٰو '..user_id..' رآح آلہٰحظہٰر آلہٰعہٰآم مہٰنه تہٰكہٰدر تہٰرجہٰعہٰه 🙄📝 '
+        	return 'آلہۧعہۧضہۧو '..user_id..' شہۧلہۧت آلہۧبہۧنہۧد مہۧنہۧة تہۧكہۧدر تہۧرجہۧعہۧةة🙄📝 '
     else
 		local cbres_extra = {
 			chat_id = msg.to.id,
@@ -341,7 +341,7 @@ return {
     "^(قائمه المحظورين) (.*)$",
     "^(قائمه المحظورين)$",
     "^(قائمه العام)$",
-	"^(مغادره)",
+	"^(مغادرة)",
     "^(دي)$",
 	"^(حظر)$",
     "^(حظر) (.*)$",
@@ -351,8 +351,9 @@ return {
     "^(دي) (.*)$",
     "^(الغاء الحظر)$",
     "^(ايدي)$",
+    "^(ايدي)", 
     "^!!tgservice (.+)$"
   },
   run = Memo,
-  pre_process = pre_process
+  pre_process = Ch_Dev
 }
